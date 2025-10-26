@@ -12,6 +12,7 @@
             steps {
                 echo "Building..."
                 sh '''
+                pip install fire
                 echo "doing build stuff.."
                 '''
             }
@@ -20,6 +21,7 @@
             steps {
                 echo "Testing.."
                 sh '''
+                python3 fire.py
                 echo "doing test stuff.."
                 '''
             }
