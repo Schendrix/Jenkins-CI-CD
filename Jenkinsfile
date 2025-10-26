@@ -3,7 +3,7 @@
         node {
             label 'agent-docker-python'
             }
-    }
+    }   
     triggers {
         pollSCM '*/5 * * * *'
     }
